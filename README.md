@@ -1,5 +1,3 @@
-# Data-science-portfolio
-
 # Data Science Portfolio
 
 This repository contains multiple end-to-end data science and machine learning projects.
