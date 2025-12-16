@@ -70,6 +70,7 @@ Each project folder contains:
 
 ## Notes
 This repository is actively evolving as more projects are added, including:
-- Marketing analytics
+- Marketing analytics (Cohort, A/B Testing, LTV etc) 
 - Social media / ad performance analysis
 - Advanced feature engineering and modeling techniques
+- SQL, Scala, Power BI projects
