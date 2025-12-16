@@ -1,13 +1,13 @@
 # Customer Churn Prediction (Classification)
 
-## 📌 Project Overview
+## Project Overview
 This project predicts whether a telecom customer is likely to churn using machine learning.
 The goal is to identify high-risk customers early and understand *why* they churn, so the business
 can take proactive retention actions.
 
 ---
 
-## 📂 Dataset
+## Dataset
 The dataset contains customer demographics, service subscriptions, billing information,
 and contract details.
 
@@ -16,7 +16,7 @@ Target variable:
 
 ---
 
-## 🧹 Data Preparation
+## Data Preparation
 Key preprocessing steps:
 - Removed `customerID` from modeling
 - Converted `TotalCharges` to numeric
@@ -28,7 +28,7 @@ Key preprocessing steps:
 
 ---
 
-## 📊 Exploratory Data Analysis (EDA)
+## Exploratory Data Analysis (EDA)
 Key observations:
 - Customers with **short tenure** churn more
 - **Month-to-month contracts** have the highest churn
@@ -39,7 +39,7 @@ EDA visuals are available in the `images/` folder.
 
 ---
 
-## 🤖 Modeling Approach
+## Modeling Approach
 Models evaluated:
 - Logistic Regression
 - Random Forest
@@ -52,7 +52,7 @@ Final model:
 
 ---
 
-## 📈 Model Performance
+## Model Performance
 The final model was evaluated using F1 score due to class imbalance.
 
 Metrics (after threshold tuning):
@@ -64,7 +64,7 @@ Confusion matrix, ROC curve, and Precision-Recall curve are stored in `images/`.
 
 ---
 
-## 🧠 Explainability
+## Explainability
 Model predictions were interpreted using feature importance and SHAP analysis.
 
 Top churn drivers:
@@ -78,7 +78,7 @@ These insights align with real-world telecom churn behavior.
 
 ---
 
-## 📦 Project Structure
+## Project Structure
 customer-churn/
 ├── notebook.ipynb
 ├── README.md
@@ -93,7 +93,7 @@ customer-churn/
 
 ---
 
-## 🚀 How to Use the Model
+## How to Use the Model
 ```python
 import joblib, json
 
