@@ -78,21 +78,6 @@ These insights align with real-world telecom churn behavior.
 
 ---
 
-## Project Structure
-customer-churn/
-├── notebook.ipynb
-├── README.md
-├── models/
-│ ├── xgb_churn_pipeline.pkl
-│ └── threshold.json
-└── images/
-├── confusion_matrix.png
-├── roc_curve.png
-├── pr_curve.png
-├── feature_importance.png
-
----
-
 ## How to Use the Model
 ```python
 import joblib, json
