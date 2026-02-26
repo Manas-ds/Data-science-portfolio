@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+dist/
+build/
+
+# Notebooks
+.ipynb_checkpoints/
+*.ipynb
+
+# Data (don't upload large files)
+*.parquet
+*.csv
+*.json
+!sample_*.parquet  # except sample files
+
+# Environment
+.env
+venv/
+env/
+.venv
+config/api_config.yaml
+
+# IDE
+.vscode/
+.idea/
+.DS_Store
+*.swp
