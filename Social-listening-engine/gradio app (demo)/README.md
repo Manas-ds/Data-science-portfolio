@@ -15,15 +15,16 @@ Two tabs:
 ## 🚀 Launch the app
 ```bash
 python app/gradio_app.py
+```
 
- ## How to use
-    Type a query (like "delivery refund")
-    Pick intent/sentiment filters (or leave as "Any")
-    Hit Run
-    See:
-        Summary bullets
-        Top themes
-        Evidence table
-        Trend chart
+# How to use
+- Type a query (like "delivery refund")
+- Pick intent/sentiment filters (or leave as "Any")
+- Hit Run
+- See:
+  - Summary bullets
+  - Top themes
+  - Evidence table
+  - Topic Trend chart
     
   Download results as JSON if you want
