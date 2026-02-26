@@ -189,15 +189,22 @@ New features you can create:
 
     Author influence: based on follower count or karma
 
-🧠 Part 6: What New Insights You Can Get
+#🧠 Part 6: What New Insights You Can Get
 Question	Without API	With API
-What's trending?	✅ Yes	✅ Yes
-What's the sentiment?	✅ Yes	✅ Yes
-Who's complaining most?	❌ No	✅ Can track by author
-Which posts go viral?	❌ No	✅ Can rank by engagement
-Best time to post?	❌ No	✅ Can analyze hourly trends
-Are influencers different?	❌ No	✅ Can segment by follower count
-⏱️ Part 7: Rate Limits & Ethical Use
+
+What's trending?	        ✅ Yes	    ✅ Yes
+
+What's the sentiment?	    ✅ Yes	    ✅ Yes
+
+Who's complaining most?	    ❌ No	    ✅ Can track by author
+
+Which posts go viral?	    ❌ No	    ✅ Can rank by engagement
+
+Best time to post?	        ❌ No	    ✅ Can analyze hourly trends
+
+Are influencers different?	❌ No	    ✅ Can segment by follower count
+
+#⏱️ Part 7: Rate Limits & Ethical Use
 Reddit API limits:
 
     60 requests per minute
