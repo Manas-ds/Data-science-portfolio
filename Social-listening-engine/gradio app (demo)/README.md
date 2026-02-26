@@ -12,8 +12,9 @@ Two tabs:
 - **Search** — query posts, filter by intent/sentiment, see trends
 - **Trending Topics** — see what's rising right now
 
-## Launch the app
-python gradio_app.py
+## 🚀 Launch the app
+```bash
+python app/gradio_app.py
 
  ## How to use
     Type a query (like "delivery refund")
