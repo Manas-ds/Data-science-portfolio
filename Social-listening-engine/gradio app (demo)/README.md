@@ -13,5 +13,16 @@ Two tabs:
 - **Trending Topics** — see what's rising right now
 
 ## Launch the app
-```bash
 python gradio_app.py
+
+ ## How to use
+    Type a query (like "delivery refund")
+    Pick intent/sentiment filters (or leave as "Any")
+    Hit Run
+    See:
+        Summary bullets
+        Top themes
+        Evidence table
+        Trend chart
+    
+  Download results as JSON if you want
